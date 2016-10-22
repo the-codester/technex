@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:elevation="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/PrimaryDarkColornav"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Core Team Members"
+        android:id="@+id/coreteam"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ishu Dohare"
+        android:id="@+id/ishu"
+        android:layout_weight="0.04"
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jasveer Singh Ubeja"
+        android:id="@+id/jazz"
+        android:layout_weight="0.06"
+        android:layout_gravity="center_horizontal"
+
+        android:textSize="20dp"
+        android:textStyle="italic"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:id="@+id/kavita"
+        android:text="Kavita Sidar"
+        android:textSize="20dp"
+        android:textStyle="italic"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/deepak"
+        android:text="Deepak Avadhyay"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hardik"
+        android:text="Hardik Sringla"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ankur"
+        android:text="Ankur Jain"
+        android:textSize="20dp"
+        android:textStyle="italic"
+        android:layout_weight="0.08" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="47dp"
+        android:id="@+id/etc"
+        android:text="etc??"
+        android:textSize="20dp"
+        android:textStyle="italic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:id="@+id/backtohome"
+        android:layout_gravity="right" />
+
+
+</LinearLayout>
