@@ -32,7 +32,7 @@ msys=false
 darwin=false
 case "`uname`" in
   CYGWIN* )
-    cygwin=true
+    cygwin=true  
     ;;
   Darwin* )
     darwin=true
